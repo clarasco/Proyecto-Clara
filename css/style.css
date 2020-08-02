@@ -1,0 +1,97 @@
+*{
+    
+}
+
+.navbar.navbar-expand-lg.navbar-dark.primary-color { background-color: aqua;
+    font-color:orange;
+    font:verdana;
+    font-size: 5em;
+}
+
+.navbar-brand {image-resolution: 50%;}
+
+.card {
+    -webkit-box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.66);
+    -moz-box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.66);
+    box-shadow: 6px 10px 20px 0px rgba(0,0,0,0.66);
+    border-radius: 10px;
+    ;
+}.card-img-top {max-height: 230px;}
+
+.container.py-5.my-5 {display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    min-width: 700px;}
+
+/* como cortar a foto sem achatar?*/
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  //CSS
+  
+}
+
+.navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+    }
